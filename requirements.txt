@@ -16,6 +16,7 @@ heroku3
 httplib2
 pybase64>=0.4.0
 pytube>=9.5.1
+pylast
 requests>=2.18.4
 search-engine-parser>=0.4.2
 telethon==1.19.0
