@@ -13,6 +13,7 @@ gitpython
 heroku3
 httplib2
 pathlib
+psycopg2
 pybase64>=0.4.0
 pytube>=9.5.1
 pylast
