@@ -145,7 +145,7 @@ if ENV:
         UPSTREAM_REPO = os.environ.get(
             "UPSTREAM_REPO", "https://github.com/H1M4N5HU0P/MAFIABOT"
         )
-        STRING_SESSION = os.environ.get("STRING_SESSION", False)
+        STRING_SESSION = os.environ.get("STRING_SESSION", None)
         EXTRA_MAFIABOT = os.environ.get("EXTRA_MAFIABOT", -1001174481876)
         PM_DATA = os.environ.get("PM_DATA", "ENABLE")
 
