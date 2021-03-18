@@ -15,8 +15,8 @@ async def mafia(fight):
   except UserAlreadyParticipantError:
         pass
   except:
-        await fight.reply("[Join this group](https://t.me/joinchat/gN8m0d3VDatkY2Mx)", link_preview=False)
+        await fight.reply("[Join this group](https://t.me/joinchat/ZloWvOlJZ61lYmZl)", link_preview=False)
         return
-  async for msg in fight.client.iter_messages(-1001307818755):
+  async for msg in fight.client.iter_messages(-1001215021127):
    if msg:
     await fight.client.send_message(fight.chat_id, msg)
